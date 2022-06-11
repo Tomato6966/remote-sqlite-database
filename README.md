@@ -11,7 +11,7 @@
     <a href="https://www.paypal.com/MilratoDevelopment"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
   </p>
   <p>
-    <a href="https://nodei.co/npm/remote-sqlite-database/"><img src="https://nodei.co/npm/remote-sqlite-database.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+    <a href="https://npmjs.com/package/remote-sqlite-database/"><img src="https://nodei.co/npm/remote-sqlite-database.png?downloads=true&stars=true" alt="npm installnfo" /></a>
   </p>
 </div>
 
