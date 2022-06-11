@@ -21,6 +21,7 @@
 - It is fast
 - It uses enmap aka sqlite
 - The clients are cached
+- Supports **SHARDED** Applications (like Discord Bots, which used enmap before)
 
 # Installation
 ```
