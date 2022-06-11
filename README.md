@@ -16,11 +16,11 @@
 </div>
 
 # remote-sqlite-database
-A remote nodejs Database using sqlite
-It has auto-restore features
-It is fast
-It uses enmap aka sqlite
-The clients are cached
+- A remote nodejs Database using sqlite
+- It has auto-restore features
+- It is fast
+- It uses enmap aka sqlite
+- The clients are cached
 
 # Installation
 ```
@@ -29,7 +29,7 @@ npm install remote-sqlite-database
 ```
 
 # Usage
-1. Create the Cache (which can be used as a DB TOO!) - Create a File-Folder-Project, at your CACHE SERVER and put in this Code:
+1. Create the DB  - Create a File-Folder-Project, at your CACHE-SERVER (it's a cache and db at the same time) and put in this Code:
 
 <details>
   <summary>Click to see the Code</summary>
