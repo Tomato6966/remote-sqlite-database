@@ -4,7 +4,7 @@
     "net-ipc": "^2.0.1"
   },
   "name": "remote-sqlite-database",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A remote nodejs Cached sqlite Database Server, for you to have your perfect MAP Cache Saved and useable remotely. Easy Server and Client Creations, fast, stores the Cache before stopping and restores it again! it uses ENMAP",
   "main": "index.js",
   "directories": {
