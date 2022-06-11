@@ -43,7 +43,8 @@ const Server = new remoteCacheServer({
     name: "databaseName",
     dataDir: "./path/to/database/",
     port: 4040, // Any port
-    tls: true
+    tls: true,
+    debug: false // if enabled u see all the actions ;)
 });
 // Following Events are optional
 Server
