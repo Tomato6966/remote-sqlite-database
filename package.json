@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "enmap": "^5.9.0",
+    "net-ipc": "^2.0.1"
+  },
+  "name": "remote-sqlite-database",
+  "version": "1.0.0",
+  "description": "A remote nodejs Cached sqlite Database Server, for you to have your perfect MAP Cache Saved and useable remotely. Easy Server and Client Creations, fast, stores the Cache before stopping and restores it again! it uses ENMAP",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomato6966/remote-sqlite-database.git"
+  },
+  "keywords": [
+    "remote",
+    "cache",
+    "enmap",
+    "database",
+    "sharding",
+    "ipc"
+  ],
+  "author": "Tomato#6966",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomato6966/remote-sqlite-database/issues"
+  },
+  "homepage": "https://github.com/tomato6966/remote-sqlite-database#readme"
+}
