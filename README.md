@@ -125,10 +125,11 @@ yourProgram();
 </details>
 
 # Methods (Functions) for the CACHE-CLIENT(s)
-
+- *all "path"'s are optional*
 - get(key, path)
 - set(key, path)
 - add(key, amount, path)
+- math(key, operator, amount, path)
 - push(key, element, path)
 - remove(key, element, path)
 - has(key, path)
