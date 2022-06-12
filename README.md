@@ -87,8 +87,9 @@ const client = new remoteCacheClient({
     host: "localhost",
     port: 5000,
     tls: true,
-    // keyNotInCacheResponse: null, // optional I like to use "null";
-})
+    keyPathing: true, // true|false ... enables if the key contains a "." that it's splitted to a path, e.g.: "hello.world.hi" --> key = "hello", path = "world.hi", db.get("hello") --> {world: {hi: "value"}}
+}); 
+//keyPathing should be set to false, if you want to do "key.hello" as a key
 
 // following events are optional
 client
@@ -126,14 +127,15 @@ yourProgram();
 
 # Methods (Functions) for the CACHE-CLIENT(s)
 - *all "path"'s are optional*
-- get(key, path)
-- set(key, path)
-- add(key, amount, path)
-- math(key, operator, amount, path)
-- push(key, element, path)
-- remove(key, element, path)
-- has(key, path)
-- delete(key, path)
+- get(key, path) *get any value from a key*
+- set(key, path) *set any value in a key*
+- add(key, amount, path) *add a number to a key/path*
+- substract(key, amount, path) *removes a number from a key/path*
+- math(key, operator, amount, path) *make a mathematical operation like adding, substracting multiplying etc.*
+- push(key, element, path) *add an element in an array*
+- remove(key, element, path) *remove an element out of an array*
+- has(key, path) *check if the key / key-path exists*
+- delete(key, path) *delete something*
 - clear() *clears the whole cache Map*
 - all() / values() *array of all values*
 - entries() *array of [key, value]*
